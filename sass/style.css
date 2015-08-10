@@ -232,4 +232,49 @@ ul {
           font-size: 13px;
           color: #fff; }
 
+.about {
+  display: block;
+  position: relative;
+  float: left;
+  padding: 60px 0 40px; }
+  .about h2 {
+    font-family: "LatoRegular";
+    text-align: center;
+    color: #3f4144;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+    .about h2 span {
+      padding-bottom: 5px;
+      border-bottom: 2px solid #ce9f62; }
+  .about p {
+    text-align: center;
+    font-size: 18px;
+    color: #282828; }
+
+.we {
+  display: block;
+  position: relative;
+  float: left;
+  padding: 25px 0;
+  width: 100%; }
+  .we h3 {
+    text-align: center;
+    font-size: 18px;
+    color: #282828; }
+  .we__small {
+    display: block;
+    float: left;
+    position: relative;
+    width: 79px;
+    height: 62px;
+    border: 1px solid #b39375; }
+  .we__large {
+    display: block;
+    float: left;
+    position: relative;
+    width: 251px;
+    height: 181px;
+    border: 1px solid #b39375; }
+
 /*# sourceMappingURL=style.css.map */
