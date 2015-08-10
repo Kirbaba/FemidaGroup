@@ -1,0 +1,41 @@
+.slider {
+  .fotorama__nav {
+  &--dots{
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.fotorama__dot {
+  width: 26px;
+  height: 26px;
+  background-color: #FFF;
+  border-radius: 0;
+  margin: 0 5px;
+}
+
+.fotorama__nav--dots .fotorama__nav__frame {
+  width: 26px;
+  height: 26px;
+  margin: 0 5px;
+}
+
+.fotorama__nav__frame.fotorama__active .fotorama__dot {
+  width: 26px;
+    height: 26px;
+    border-color: #fff;
+    background-color: #ff0111;
+}
+
+.fotorama__nav.fotorama__nav--dots {
+  position: absolute;
+  top: 0;
+  height: 50px;
+  margin-top: 0;
+}
+
+  .fotorama__nav__shaft {
+    float: right;
+    margin-right: 30px;
+  }
+}

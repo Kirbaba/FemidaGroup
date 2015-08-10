@@ -1,0 +1,47 @@
+.HomeHeader {
+	display: block;
+	float: left;
+	position: relative;
+	padding: 15px 0;
+	width: 100%;
+	&__logo {
+		display: block;
+		float: left;
+		width: 40%;	
+		a {
+			img {
+				width: 100%;
+			}
+		}
+	}
+	&__nav {
+		width: 60%;
+		display: block;
+		float: left;
+		position: absolute;
+		bottom: 15px;
+		right: 0;
+		ul {
+			list-style-type: none;
+			float: right;
+			li {
+				display: inline-block;
+				padding: 0 10px;
+				margin-left: 50px;
+				border-bottom: 1px solid #fff;
+				a {
+					color: #ad4417;
+					font-size: 18px;
+					&:hover, &:active, &:focus {
+						outline: none;
+						text-decoration: none;
+					}
+				}
+				&:hover, &:active, &:focus {
+					border-bottom: 1px solid #9a421c;
+				}
+
+			}
+		}
+	}
+}
