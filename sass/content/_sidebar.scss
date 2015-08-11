@@ -1,0 +1,61 @@
+.sidebar {
+	display: block;
+	float: left;
+	position: relative;
+	width: 255px;
+	padding: 25px 0;
+	&__logo {
+
+		img {
+			width: 100%;
+		}
+	}
+	.li-container {
+		background-color: #b49375;
+		margin: 10px 0;
+		width: 100%;
+		display: block;
+	}
+	.sb-but {
+	    display: block;	    
+	    .box1 {
+	    	display: block;
+	    	padding: 10px 15px 5px;
+		    color: #fff;
+		    text-decoration: none;
+	    }
+	}
+	.dropdown{
+		padding-bottom: 10px;
+		.down {
+			padding-left: 15px;
+			li {
+				display: block;
+				.down_li {
+					display: block;
+			    	padding: 0 30px;
+				    color: #fff;
+				    text-decoration: none;
+				}
+			}
+		}
+	}
+	.down {
+		padding-left: 15px;
+		li {
+			display: block;
+			.down_li {
+				display: block;
+		    	padding: 0 30px;
+			    color: #fff;
+			    text-decoration: none;
+			}
+		}
+	}
+	.side-menu {
+		border-top: 1px solid #fff;
+		&:first-child {
+			border: none;
+		}
+	}
+}

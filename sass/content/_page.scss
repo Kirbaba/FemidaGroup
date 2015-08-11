@@ -1,0 +1,37 @@
+.page {
+	display: block;
+	position: relative;
+	float: left;
+	width: 1167px - 255px - 60px;
+	padding: 25px;
+	&__thumb {
+		display: block;
+		float: left;
+		max-width: 235px;
+		margin: 0 25px 15px 0;
+		img {
+			width: 100%;
+		}
+	}
+	h1 {
+		text-transform: uppercase;
+		font-size: 18px;
+		font-family: $b;
+		color: #b49375;
+	}
+}
+
+.kama_breadcrumbs {
+    float: right;
+    display: block;
+    font-size: 13px;
+    color: #787878;
+    a {
+    	color: #787878;
+    }
+
+    h1 {
+    	font-family: $b;
+    	font-size: 17px;
+    }
+}
