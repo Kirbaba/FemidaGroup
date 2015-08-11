@@ -15,7 +15,7 @@
 	<header class="header">					
 		<nav class="navMenu">
 			<ul>
-				<li><a href="#nowhere">Главная</a></li>
+				<li><a href="<?php echo get_home_url();?>">Главная</a></li>
 				<li><a href="#nowhere">Об агенстве</a></li>
 				<li><a href="#nowhere">Услуги</a></li>
 				<li><a href="#nowhere">Как нас найти</a></li>

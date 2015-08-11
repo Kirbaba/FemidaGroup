@@ -414,12 +414,14 @@ ul {
     max-width: 235px;
     margin: 0 25px 15px 0; }
     .page__thumb img {
-      width: 100%; }
+      width: 100%;
+      height: auto; }
   .page h1 {
     text-transform: uppercase;
     font-size: 18px;
     font-family: "LatoBold";
-    color: #b49375; }
+    color: #b49375;
+    margin-top: 30px; }
 
 .kama_breadcrumbs {
   float: right;
