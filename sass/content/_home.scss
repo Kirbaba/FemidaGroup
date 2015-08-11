@@ -84,28 +84,150 @@
 	display: block;
 	position: relative;
 	float: left;
-	padding: 25px 0;
+	padding: 25px 150px;
 	width: 100%;
 	h3 {
 		text-align: center;
 		font-size: 18px;
 		color: #282828;
+		font-family: $r;
 	}
 	&__small {
 		display: block;
 		float: left;
 		position: relative;
-		width: 79px;
-		height: 62px;
+		width: 250px;
+		height: 150px;
 		border: 1px solid #b39375;
+		margin: 25px 0;		
+		padding: 15px 10px;
 	}
 
 	&__large {
 		display: block;
 		float: left;
 		position: relative;
-		width: 251px;
-		height: 181px;
+		width: 250px;
+		height: 180px;
 		border: 1px solid #b39375;
+		margin: 25px 28px;
+		padding: 15px 10px;
+	}
+
+	img {
+		margin: 0 auto 15px;
+		display: block;
+		position: relative;
+	}
+
+	p {
+		text-align: center;
+		font-size: 16px;
+		font-family: $r;
+	}
+}
+
+.homeRelations {
+	display: block;
+	position: relative;
+	background-image: url("../IMG/1396890242_civil-law1.png");
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	padding: 75px 0;
+	float: left;
+	width: 100%;
+	&__container {
+		width: 550px;
+		display: block;
+		position: relative;
+		margin: 0 auto;
+		h2 {
+			font-size: 28px;
+			font-family: $r;
+			text-align: center;
+			color: #fff;
+			text-transform: uppercase;
+		}
+
+		&__line {
+			width: 120px;
+			height: 2px;
+			background-color: #fdfaf7;
+			margin: 0 auto 100px;
+		}
+	}
+	.relationsInput {
+		width: 255px;
+		padding: 5px 15px;
+		color: #fff;
+		display: block;
+		float: left;
+		margin: 10px;
+		background: rgba(255, 255, 255, 0);
+		border-right: none;
+		border-top: none;
+		border-left: none;
+		border-bottom: 1px solid #fff;
+		outline: none;
+		color: #fff;
+		font-style: 18px;
+	}
+
+	.relationsText {
+		width: 530px;
+		display: block;
+		float: left;
+		margin: 25px 10px;
+		resize: none;
+		border-right: none;
+		border-top: none;
+		border-left: none;
+		border-bottom: 1px solid #fff;
+		outline: none;		
+		background: rgba(255, 255, 255, 0);
+		padding: 5px 15px;
+		color: #fff;
+		font-style: 18px;
+	}
+
+	.relationsSub {
+		width: 118px;
+		height: 34px;
+		background: rgba(255, 255, 255, 0);
+		border: 1px solid #fff;
+		float: right;
+		margin: 25px 10px;
+		color: #fff;
+		font-style: 18px;
+		&:hover, &:active, &:focus {
+			outline: none;
+		}
+	}
+}
+
+.homeContact {
+	display: block;
+	position: relative;
+	padding: 75px 0;
+	float: left;
+	width: 100%;
+	p { 
+		text-align: center;
+		font-size: 16px;
+		color: #272727;
+	}
+	h2 {
+		text-transform: uppercase;
+		font-size: 27px;
+		text-align: center;
+		color: #272727;
+	}
+
+	.homeContact__line {
+		@extend .homeRelations__container__line;
+		background-color: #272727;
+		height: 1px;
+		margin-bottom: 50px;
 	}
 }
