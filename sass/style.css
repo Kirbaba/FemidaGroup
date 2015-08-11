@@ -115,7 +115,7 @@ ul {
   min-height: 100%; }
 
 .content {
-  padding-bottom: 140px; }
+  padding-bottom: 75px; }
 
 .HomeHeader {
   display: block;
@@ -182,6 +182,18 @@ ul {
       .navMenu ul a:hover li {
         text-decoration: none;
         color: #fefefe; }
+
+.footer {
+  height: 75px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #473a2e; }
+  .footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px; }
 
 .banner {
   display: block;
@@ -372,7 +384,8 @@ ul {
     text-transform: uppercase;
     font-size: 27px;
     text-align: center;
-    color: #272727; }
+    color: #272727;
+    font-family: "LatoRegular"; }
   .homeContact .homeContact__line {
     background-color: #272727;
     height: 1px;
