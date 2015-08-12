@@ -24,9 +24,9 @@
 					<div class="HomeHeader__nav">
 						<ul>
 							<li><a href="<?php echo get_home_url();?>">Главная</a></li>
-							<li><a href="#nowhere">Об агенстве</a></li>
-							<li><a href="#nowhere">Услуги</a></li>
-							<li><a href="#nowhere">Контакты</a></li>
+							<li><a href="<?php echo get_permalink(6); ?>">Об агенстве</a></li>
+							<li><a href="<?php echo get_permalink(6); ?>">Услуги</a></li>
+							<li><a href="<?php echo get_permalink(6); ?>">Контакты</a></li>
 						</ul>
 					</div>
 				</header>
