@@ -1,4 +1,8 @@
 <?php
+define('ADD_FEMIDIA_DIR', plugin_dir_path(__FILE__));
+define('ADD_FEMIDIA_URL', plugin_dir_url(__FILE__));
+
+require_once(ADD_FEMIDIA_DIR . "/lib/Generator.php");
 
 function add_style(){
     wp_enqueue_style( 'my-bootstrap-extension', get_template_directory_uri() . '/css/bootstrap.css', array(), '1');
@@ -223,3 +227,26 @@ function __crumbs_tax( $term_id, $tax, $sep, $linkpatt ){
     
     return implode('', $termlinks );
 }
+
+
+function getSidbar(){
+    $gen = new Generator();
+    $args = array(
+        'type'                     => 'post',
+        'child_of'                 => 0,
+        'parent'                   => 0,
+        'orderby'                  => 'name',
+        'order'                    => 'ASC',
+        'hide_empty'               => 0,
+        'hierarchical'             => 1,
+        'exclude'                  => '',
+        'include'                  => '',
+        'number'                   => 0,
+        'taxonomy'                 => 'category',
+        'pad_counts'               => false
+    );
+    $categories = get_categories( $args );
+    echo $gen->generatorCategories($categories);
+}
+
+add_shortcode("sidebar", "getSidbar");

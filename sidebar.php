@@ -2,7 +2,7 @@
 	<a class="sidebar__logo" href="<?php echo get_home_url();?>">
 		<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="placeholder+image">
 	</a>
-    <ul class="li-container">
+<!--    <ul class="li-container">
     	<li class="side-menu">
 		    <ul>
 			        <li class="sb-but"><a href="#nowhere" class="box1">♦ Покупателям</a></li>
@@ -27,5 +27,9 @@
 			    </li>
 			</ul>
 		</li>
-</ul>
+</ul>-->
+
+    <?php do_shortcode('[sidebar]');?>
+
+
 </div>
