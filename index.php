@@ -38,11 +38,11 @@
 					</div>
 					<nav class="banner__nav">
 						<ul>
-							<li><a href="#nowhere">ПРОДАЖА ГОТОВЫХ КОМПАНИЙ </a></li>
-							<li><a href="#nowhere">РЕГИСТРАЦИЯ БИЗНЕСА</a></li>
-							<li><a href="#nowhere">ПРЕДСТАВИТЕЛЬСТВО ИНТЕРЕСОВ</a></li>
-							<li><a href="#nowhere">ЭКСПРЕСС-ЛИКВИДАЦИЯ ПРЕДПРИЯТИЯ </a></li>
-							<li><a href="#nowhere">СОПРОВОЖДЕНИЕ</a></li>
+							<li><a href="<?php echo get_category_link(2); ?>">ПРОДАЖА ГОТОВЫХ КОМПАНИЙ </a></li>
+							<li><a href="<?php echo get_category_link(3); ?>">РЕГИСТРАЦИЯ БИЗНЕСА</a></li>
+							<li><a href="<?php echo get_category_link(4); ?>">ПРЕДСТАВИТЕЛЬСТВО ИНТЕРЕСОВ</a></li>
+							<li><a href="<?php echo get_category_link(5); ?>">ЭКСПРЕСС-ЛИКВИДАЦИЯ ПРЕДПРИЯТИЯ </a></li>
+							<li><a href="<?php echo get_category_link(6); ?>">СОПРОВОЖДЕНИЕ</a></li>
 						</ul>
 					</nav>
 				</section>
