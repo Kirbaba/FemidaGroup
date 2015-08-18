@@ -16,7 +16,7 @@
 		<nav class="navMenu">
 			<ul>
 				<li><a href="<?php echo get_home_url();?>">Главная</a></li>
-				<li><a href="<?php echo get_permalink(6); ?>">Об агенстве</a></li>
+				<li><a href="<?php echo get_home_url();?>#go_about">Об агенстве</a></li>
 				<li><a href="<?php echo get_permalink(11); ?>">Услуги</a></li>
 				<li><a href="<?php echo get_permalink(98); ?>">Как нас найти</a></li>
 				<li><a href="#go_contacts">Контакты</a></li>
