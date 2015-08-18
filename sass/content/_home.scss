@@ -234,8 +234,13 @@
 }
 
 .categorys {
-	margin: 25px 0;
+	margin: 51px 0 25px 0;
 	a {
 		display: block;
+		color: #402A15;
+		font-family: $r;
+	}
+	ul {
+		list-style-type: disc;
 	}
 }

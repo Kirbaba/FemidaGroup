@@ -20,4 +20,5 @@
 
 			<?php get_template_part('contacts'); ?>
 		</div>
+		
 <? get_footer()?>

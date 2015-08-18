@@ -54,3 +54,13 @@ ul {
 .content {
 	padding-bottom: 75px;
 }
+
+span.wpcf7-not-valid-tip {
+	display: block;
+}
+
+div.wpcf7-validation-errors {
+    border: 2px solid #f7e700;
+    color: #fff;
+    margin-top: 60px;
+}

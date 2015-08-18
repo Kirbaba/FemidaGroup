@@ -24,16 +24,16 @@
 					<div class="HomeHeader__nav">
 						<ul>
 							<li><a href="<?php echo get_home_url();?>">Главная</a></li>
-							<li><a href="<?php echo get_permalink(6); ?>">Об агенстве</a></li>
-							<li><a href="<?php echo get_permalink(6); ?>">Услуги</a></li>
-							<li><a href="<?php echo get_permalink(6); ?>">Контакты</a></li>
+							<li><a href="#go_about" class="smoothScroll">Об агенстве</a></li>
+							<li><a href="<?php echo get_permalink(11); ?>">Услуги</a></li>
+							<li><a href="#go_contacts">Контакты</a></li>
 						</ul>
 					</div>
 				</header>
 				<section class="banner">
 					<div class="banner__content">
 						<h2>УВЕРЕННАЯ ИГРА <br>
-НА ПРАВОВОМ 				ПОЛЕ С “НАЗВАНИЕ АГЕНСТВА”!</h2>
+НА ПРАВОВОМ 				ПОЛЕ С “ФЕМИДА ГРУПП”!</h2>
 						<p>В современном мире роль права в каждом аспекте жизни еще более значима. Правовое подтверждение и закрепление обязательно в динамике текущих дней</p>
 					</div>
 					<nav class="banner__nav">
@@ -48,6 +48,7 @@
 				</section>
 
 				<section class="about">
+					<a name="go_about" id="go_about"></a>
 					<h2><span>ОБ АГЕНСТВЕ</span></h2>
 					<p>Наша юридическая фирма прилагает максимум усилий, чтобы сэкономить драгоценное время наших клиентов. Сведенное к минимуму участие в рабочем процессе клиента, грамотно налаженная работа онлайн-консультирования дает клиенту возможность не тратить личное время на то, чтобы добраться в офис к специалисту. Любой может получить полноценную консультацию, при этом не покидая своего рабочего места или даже не выходя из дома.</p>
 				</section>
@@ -68,7 +69,9 @@
 						<p>Мы работаем на Ваш успех.</p>
 					</div>
 				</section>
-				<?php get_template_part('contacts'); ?>			
+
+				<?php get_template_part('contacts'); ?>		
+				<a name="go_contacts" id="go_contacts"></a>	
 			</div>
 
 
