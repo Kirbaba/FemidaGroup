@@ -18,7 +18,11 @@ class Generator {
 		                <ul>
 			                <li class="sb-but"><a href="#nowhere" class="box1">♦ '.$cat->name.'</a></li>
                             <li class="dropdown" style="display: none;">';
-                            $html .= $this->generatorPosts($cat->term_id);
+                            if($cat->term_id == 8){
+                                $html .= $this->getSubcategory($cat->term_id);
+                            }else {
+                                $html .= $this->generatorPosts($cat->term_id);
+                            }
                     $html .= '</li>
                         </ul>
                     </li>';
@@ -52,6 +56,17 @@ class Generator {
 
         }
         return $html;
+    }
+
+    public function getSubcategory($id){
+        $html = '';
+        $dochernii_kategorii = get_categories('child_of=' . $id . '&hide_empty=0');
+        foreach($dochernii_kategorii as $categori){
+            $html .= '<ul class="down">
+			        	<li><a class="down_li" href="'.get_category_link($categori->term_id).'">'.$categori->name.'</a></li></ul>';
+        }
+        return $html;
+        //prn($dochernii_kategorii);
     }
 
 } 
